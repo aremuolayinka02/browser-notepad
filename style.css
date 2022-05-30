@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-weight: 100;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+h1{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+#tweet-list{
+    width: 100%;
+}
+
+.remove-tweet{
+    border: none;
+    border-radius: 50%;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 10%;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.container div{
+    display: block;
+    flex-basis: 45%;
+}
+
+#tweet-header{
+    color: black;
+    font-weight: bold;
+}
+
+#tweet-text{
+    width: 98%;
+    height: 60px;
+}
+
+#submit-tweet input{
+    background-color: #33C3F0;
+    border: none;
+    width: 100%;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    height: 38px;
+    border-radius: 5px;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+@media (max-width: 550px){
+    .container div{
+        display: block;
+        flex-basis: 100%;
+    }
+}
